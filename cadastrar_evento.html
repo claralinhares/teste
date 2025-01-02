@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar Evento</title>
+    <link rel="stylesheet" href="/static/estilo.css" />
+  </head>
+
+  <section class="form-section">
+    <h1>Cadastro de Evento</h1>
+    <form id="evento-form">
+      <label for="evento-nome">Nome do Evento</label>
+      <input type="text" id="evento-nome" name="evento-nome" required />
+
+      <label for="evento-data">Data do Evento</label>
+      <input type="date" id="evento-data" name="evento-data" required />
+
+      <label for="evento-descricao">Descrição</label>
+      <textarea id="evento-descricao" name="evento-descricao" required></textarea>
+
+      <label for="evento-local">Local do Evento</label>
+      <input type="text" id="evento-local" name="evento-local" required />
+
+      <button type="submit">Cadastrar Evento</button>
+    </form>
+  </section>
+ <footer>
+      <p>&copy; 2024 TechSecure. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+
